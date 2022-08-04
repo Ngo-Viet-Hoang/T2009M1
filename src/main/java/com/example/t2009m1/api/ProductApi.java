@@ -17,7 +17,7 @@ import java.util.Optional;
 public class ProductApi {
     @Autowired
     ProductService productService;
-
+    
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<List<Product>> getList() {
         return ResponseEntity.ok(productService.findAll());

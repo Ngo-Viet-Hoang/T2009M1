@@ -18,7 +18,7 @@ public class Product {
     private Long id;
     private String name;
     private String slug;
-    private Double price;
+    private double price;
     private String thumbnail;
     private String description;
     private int status;
